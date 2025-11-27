@@ -1,0 +1,48 @@
+    1  q
+    2  exit
+    3  ls
+    4  ls/
+    5  ls /
+    6  cd /root
+    7  mkdir server_lesson && cd server_lesson
+    8  ls
+    9  git version
+   10  git init
+   11  git init
+   12  git status
+   13  apt update -y && apt install -y git
+   14  git version
+   15  git init
+   16  touch first.txt
+   17  ls
+   18  git status
+   19  git remote add origin https://github.com/Uno-login/server_lesson.git
+   20  exit
+   21  cd /home
+   22  ls
+   23  cat README.md
+   24  apt update -y && apt install -y vim
+   25  cd /home
+   26  vi README.md
+   27  cd /server_lesson
+   28   cd server_lesson
+   29  exit
+   30  cd /root
+   31  cd server_lesson/linux_practice2
+   32  ls
+   33  mkdir documents
+   34  cd ~/server_lesson/linux_practice2/documents
+   35  touch gizumo{01..50}.md
+   36  ls
+   37  cd ~/server_lesson/linux_practice2
+   38  mkdir trash
+   39  mv documents/gizumo{20..40}.md trash
+   40  ls
+   41  cd ~/server_lesson/linux_practice2/trash
+   42  ls
+   43  git init
+   44  cd ~/server_lesson/linux_practice2
+   45  touch .gitignore
+   46  ls
+   47  vi .gitignore
+   48  history 300 > exec_command.log
